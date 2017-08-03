@@ -1,7 +1,12 @@
 {
   "manifest_version":2,
   "name":"Japanese Jisho",
-  "version":0.1,
+  "version":"0.1",
 
-  "description":"A tool to check Japanese within a click"
+  "description":"A tool to check Japanese within a click",
+
+  "browser_action": {
+    "default_title":"Jisho",
+    "default_popup":"default.html"
+  }
 }
