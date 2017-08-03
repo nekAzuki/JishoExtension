@@ -1,7 +1,7 @@
 {
   "manifest_version":2,
-  "name":"Japanese Jisho",
-  "version":"1.0.0.0",
+  "name":"Japanses Dict",
+  "version":"1.0.0.1",
 
   "description":"A tool to check Japanese words on jisho.com within a click",
   "icons":{"16": "icon.png",
