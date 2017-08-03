@@ -8,9 +8,12 @@
   </head>
   <body>
     <h1><img src='logo.png' alt="Jisho" height="60pt" width="120pt"></h1>
-    <form>
-      <input type="text" name="input" size="50" autocomplete="off" spellcheck="false" placeholder="English, Japanese, Romaji, words or text">
-      <input type="submit" value="Search" name="Submit">
+    <form class="form">
+      <div id="inputarea">
+        <input class="inputwidget" id="input" type="text" name="input" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="English, Japanese, Romaji, words or text">
+        <input class="inputwidget" id="clear" type="button" value="X">
+      </div>
+      <input id="search" type="submit" value="Search" name="Submit">
     </form>
   </body>
 </html>

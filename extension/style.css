@@ -1,0 +1,37 @@
+.form {
+  font-family: cursive;
+  font-size: 15pt;
+}
+
+.inputwidget {
+  background-color: Transparent;
+  border: none;
+  height: 24pt
+}
+
+#input {
+  font-size: 18px;
+  width: 93%;
+  margin:0;
+  padding-left: 3px;
+  box-shadow: none;
+}
+
+#clear {
+  cursor: pointer;
+  margin:0;
+  padding-left: 3px;
+  box-shadow: none;
+}
+
+#inputarea {
+  border: solid;
+  border-color: #ddd;
+  box-sizing: border-box;
+}
+
+
+html {
+  height: 5%;
+  width: 350pt;
+}
