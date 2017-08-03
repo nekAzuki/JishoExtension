@@ -10,21 +10,31 @@
 }
 
 #input {
+  position: relative;
   font-size: 18px;
-  width: 93%;
+  width: 85%;
   margin:0;
-  padding-left: 3px;
+  top: -8.5px;
 }
 
 #clear {
   cursor: pointer;
   margin:0;
-  padding-left: 3px;
+  position: relative;
+  top: -9px;
+}
+
+#search {
+  margin:0;
+  position: relative;
+  top: 1.5px;
 }
 
 #inputarea {
   border: solid;
   border-color: #ddd;
+  width: auto;
+  height: 38px;
   box-sizing: border-box;
 }
 
