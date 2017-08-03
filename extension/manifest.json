@@ -1,13 +1,17 @@
 {
   "manifest_version":2,
   "name":"Japanese Jisho",
-  "version":"0.1",
+  "version":"1.0.0.0",
 
-  "description":"A tool to check Japanese within a click",
+  "description":"A tool to check Japanese words on jisho.com within a click",
+  "icons":{"16": "icon.png",
+           "48": "icon.png"
+         },
 
   "permissions":["tabs"],
 
   "browser_action": {
+    "default_icon":"icon.png",
     "default_title":"Jisho",
     "default_popup":"default.html"
   }
