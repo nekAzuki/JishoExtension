@@ -1,3 +1,5 @@
+// author NekA
+// 8/3/2017
 
 function initialize() {
   var search = document.getElementById('search')
