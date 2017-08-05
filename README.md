@@ -8,4 +8,5 @@ first version
 
 Future features:
 Select words and check (like google translate)
+
 create a simple view on popup
