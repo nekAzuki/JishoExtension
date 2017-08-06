@@ -17,6 +17,12 @@ function initialize() {
   clear.onclick = function() {
     document.getElementById('input').value = ""
   }
+
+  var body = document.body
+
+  body.onclick = function() {
+    alert(window.getSelection())
+  }
 }
 
 window.onload = initialize
